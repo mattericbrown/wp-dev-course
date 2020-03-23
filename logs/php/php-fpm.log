@@ -1,0 +1,11 @@
+[18-Feb-2020 14:57:18] NOTICE: fpm is running, pid 47968
+[18-Feb-2020 14:57:18] NOTICE: ready to handle connections
+[18-Feb-2020 15:17:20] WARNING: [pool www] child 47976 said into stderr: "sh: /Users/Mb/Local: No such file or directory"
+[18-Feb-2020 15:17:21] WARNING: [pool www] child 47977 said into stderr: "sh: /Users/Mb/Local: No such file or directory"
+[28-Feb-2020 12:42:45] NOTICE: fpm is running, pid 3152
+[28-Feb-2020 12:42:45] NOTICE: ready to handle connections
+[08-Mar-2020 11:39:42] NOTICE: Terminating ...
+[08-Mar-2020 11:39:42] NOTICE: Terminating ...
+[08-Mar-2020 11:39:42] NOTICE: exiting, bye-bye!
+[23-Mar-2020 10:04:19] NOTICE: fpm is running, pid 84186
+[23-Mar-2020 10:04:19] NOTICE: ready to handle connections

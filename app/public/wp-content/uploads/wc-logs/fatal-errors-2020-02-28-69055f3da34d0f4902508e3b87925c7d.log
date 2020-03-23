@@ -1,0 +1,26 @@
+2020-02-28T21:12:01+00:00 CRITICAL Uncaught Error: Call to undefined function display_post() in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php:30
+Stack trace:
+#0 /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/Mb/Local Sites/chefcodelife/app/public/wp-blog-header.php(19): require_once('/Users/Mb/Local...')
+#2 /Users/Mb/Local Sites/chefcodelife/app/public/index.php(17): require('/Users/Mb/Local...')
+#3 {main}
+  thrown in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php on line 30
+
+2020-02-28T21:12:42+00:00 CRITICAL Uncaught Error: Call to undefined function display_post() in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php:30
+Stack trace:
+#0 /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/Mb/Local Sites/chefcodelife/app/public/wp-blog-header.php(19): require_once('/Users/Mb/Local...')
+#2 /Users/Mb/Local Sites/chefcodelife/app/public/index.php(17): require('/Users/Mb/Local...')
+#3 {main}
+  thrown in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php on line 30
+
+2020-02-28T21:15:24+00:00 CRITICAL syntax error, unexpected '"</h3>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php on line 44
+
+2020-02-28T21:15:39+00:00 CRITICAL Uncaught Error: Call to undefined function display_post() in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php:30
+Stack trace:
+#0 /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/Mb/Local Sites/chefcodelife/app/public/wp-blog-header.php(19): require_once('/Users/Mb/Local...')
+#2 /Users/Mb/Local Sites/chefcodelife/app/public/index.php(17): require('/Users/Mb/Local...')
+#3 {main}
+  thrown in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php on line 30
+

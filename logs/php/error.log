@@ -1,0 +1,34 @@
+[18-Feb-2020 23:38:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[18-Feb-2020 23:38:42 UTC] PHP Stack trace:
+[18-Feb-2020 23:38:42 UTC] PHP   1. {main}() /Users/Mb/Local Sites/chefcodelife/app/public/wp-admin/customize.php:0
+[18-Feb-2020 23:38:42 UTC] PHP   2. do_action() /Users/Mb/Local Sites/chefcodelife/app/public/wp-admin/customize.php:123
+[18-Feb-2020 23:38:42 UTC] PHP   3. WP_Hook->do_action() /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/plugin.php:478
+[18-Feb-2020 23:38:42 UTC] PHP   4. WP_Hook->apply_filters() /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/class-wp-hook.php:312
+[18-Feb-2020 23:38:42 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/class-wp-hook.php:288
+[18-Feb-2020 23:38:42 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/class-wp-customize-widgets.php:690
+[18-Feb-2020 23:38:42 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/class-wp-customize-widgets.php:1001
+[18-Feb-2020 23:38:42 UTC] PHP   8. wp_widget_control() /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/class-wp-customize-widgets.php:1053
+[18-Feb-2020 23:38:42 UTC] PHP   9. OMAPI_Widget->form_callback() /Users/Mb/Local Sites/chefcodelife/app/public/wp-admin/includes/widgets.php:276
+[18-Feb-2020 23:38:42 UTC] PHP  10. OMAPI_Widget->form() /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/class-wp-widget.php:518
+[28-Feb-2020 21:12:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function display_post() in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php:30
+Stack trace:
+#0 /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/Mb/Local Sites/chefcodelife/app/public/wp-blog-header.php(19): require_once('/Users/Mb/Local...')
+#2 /Users/Mb/Local Sites/chefcodelife/app/public/index.php(17): require('/Users/Mb/Local...')
+#3 {main}
+  thrown in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php on line 30
+[28-Feb-2020 21:12:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function display_post() in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php:30
+Stack trace:
+#0 /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/Mb/Local Sites/chefcodelife/app/public/wp-blog-header.php(19): require_once('/Users/Mb/Local...')
+#2 /Users/Mb/Local Sites/chefcodelife/app/public/index.php(17): require('/Users/Mb/Local...')
+#3 {main}
+  thrown in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php on line 30
+[28-Feb-2020 21:15:24 UTC] PHP Parse error:  syntax error, unexpected '"</h3>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php on line 44
+[28-Feb-2020 21:15:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function display_post() in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php:30
+Stack trace:
+#0 /Users/Mb/Local Sites/chefcodelife/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/Mb/Local Sites/chefcodelife/app/public/wp-blog-header.php(19): require_once('/Users/Mb/Local...')
+#2 /Users/Mb/Local Sites/chefcodelife/app/public/index.php(17): require('/Users/Mb/Local...')
+#3 {main}
+  thrown in /Users/Mb/Local Sites/chefcodelife/app/public/wp-content/themes/1 - PHP for WordPress/1.04-phpforwp-starter/index.php on line 30
